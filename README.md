@@ -1,17 +1,18 @@
 # This is a Advent of Code Starter kit (javascript)
 
 - Step 1
-  Install git
-  https://git-scm.com/downloads
+  Install git from https://git-scm.com/downloads
 
 - Step 2
-  Install nodejs
-  https://nodejs.org
+  Install nodejs from https://nodejs.org
 
 - Step 2
-  Install clone this repo
+  Clone this repo by running the following command in git bash
   ```
   git clone https://github.com/DennisSonntag/AdventOfCodeStarterKit.git
   ```
-- Step 3
-  solve away
+- Step 4
+  Install vscode from https://code.visualstudio.com/download
+
+- Step 5
+  Open the Folder you cloned in vscode and solve away
