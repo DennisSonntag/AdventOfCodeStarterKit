@@ -1,12 +1,14 @@
-// const fs = require('node:fs/promises');
 import fs from 'node:fs/promises'
+try {
+	// do everything in this block
 
-async function example() {
-	try {
-		const data = await fs.readFile('./test.txt', { encoding: 'utf8' });
-		console.log(data);
-	} catch (err) {
-		console.log(err);
-	}
+	const data = await fs.readFile('./test.txt', { encoding: 'utf8' });
+
+	console.log(data);
+
+	// ignore the errors
+} catch (err) {
+
+	console.log("file does not exist");
+	console.log(err);
 }
-example();
